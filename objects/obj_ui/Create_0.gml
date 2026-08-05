@@ -1,0 +1,1 @@
+draw_text_transformed(0, 0, "Onions killed: " + string(global.player_kills), display_get_gui_width() * 0.3, display_get_gui_height() * 0.1, 0);
