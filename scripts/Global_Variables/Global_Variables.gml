@@ -1,15 +1,17 @@
 #macro LEVEL global.level
 #macro REMAINING global.onion_remain
 #macro TYPE global.level_type
+#macro SCALER obj_scaling_controller
 
 global.player_kills = 0;
 global.onion_remain = 20;
+global.onion_multi = 1;
 global.level = 0;
 global.current_weapon = 0;
 global.is_fighting = false;
 global.money = 0;
 global.is_html = false;
-
+global.spawn_percent = 1.00;
 
 //this is an array with structs containing weapon information
 //cooldown is in frames, 60 = 1 second remeber

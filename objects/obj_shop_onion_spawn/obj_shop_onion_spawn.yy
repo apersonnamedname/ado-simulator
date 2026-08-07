@@ -1,19 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_scaling_controller",
+  "%Name":"obj_shop_onion_spawn",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_scaling_controller",
+  "name":"obj_shop_onion_spawn",
   "overriddenProperties":[],
   "parent":{
-    "name":"importants",
-    "path":"folders/Objects/importants.yy",
+    "name":"buttons",
+    "path":"folders/Objects/buttons.yy",
   },
-  "parentObjectId":null,
-  "persistent":true,
+  "parentObjectId":{
+    "name":"obj_coin_upgrade_parent",
+    "path":"objects/obj_coin_upgrade_parent/obj_coin_upgrade_parent.yy",
+  },
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -30,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_blank_button",
+    "path":"sprites/spr_blank_button/spr_blank_button.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
