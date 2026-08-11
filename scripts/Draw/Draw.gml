@@ -13,3 +13,5 @@ function create_random_location(_object)
 	irandom_range(300, 1500), 
 	"Instances",_object);
 }
+
+//i like stuffy
