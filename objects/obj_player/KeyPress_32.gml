@@ -4,6 +4,7 @@ if (reload == 0)
 	{
 		case 0:
 		case 2:
+		case 3:
 			instance_create_layer(x, y, "Instances", global.weapons[global.current_weapon].object);
 		break;
 		case 1:

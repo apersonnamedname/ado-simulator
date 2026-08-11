@@ -39,7 +39,16 @@ global.weapons = [
 		damage: 3,
 		cooldown: 120,
 		object: obj_projectile_miku,
-		cost: 250,
+		cost: 390,
+		owned: false
+	},
+	
+	{
+		name: "celery",
+		damage: 5,
+		cooldown: 45,
+		object: obj_projectile_celery,
+		cost: 3000,
 		owned: false
 	}
 ];
@@ -69,5 +78,15 @@ global.level_type = [
 		amount: 50,
 		onion_objects: [obj_yellow_onion, obj_red_onion],
 		time: 0.5
+	},
+	{
+		amount: 10,
+		onion_objects: [obj_yellow_boss],
+		time: 1
+	},
+	{
+		amount: 30,
+		onion_objects: [obj_yellow_onion, obj_yellow_onion, obj_yellow_boss],
+		time: 0.75
 	}
 ];

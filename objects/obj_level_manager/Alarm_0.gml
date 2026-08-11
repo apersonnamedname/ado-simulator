@@ -16,6 +16,9 @@ else if (LEVEL <= 8){ //6-8 165 total
 else if (LEVEL <= 11){ //9-11 255 total
 	index = 3;
 }
+else if (LEVEL <= 13){ //12-13 275 total
+	index = 4;
+}
 else {
 	//this is like the default final levels to avoid crashes due to forgetfulness
 	index = array_length(TYPE) - 1;
