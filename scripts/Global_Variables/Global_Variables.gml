@@ -7,7 +7,7 @@ global.player_kills = 0;
 global.onion_remain = 20;
 global.onion_multi = 1;
 global.level = 0;
-global.current_weapon = 0;
+global.current_weapon = 4;
 global.is_fighting = false;
 global.money = 0;
 global.is_html = false;
@@ -49,6 +49,15 @@ global.weapons = [
 		cooldown: 45,
 		object: obj_projectile_celery,
 		cost: 3000,
+		owned: false
+	},
+	
+	{
+		name: "rose",
+		damage: 10,
+		cooldown: 240,
+		object: obj_projectile_rose,
+		cost: 7500,
 		owned: false
 	}
 ];

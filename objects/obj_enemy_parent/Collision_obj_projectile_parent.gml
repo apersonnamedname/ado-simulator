@@ -7,7 +7,10 @@ else
 	hp = hp - 3;
 }
 
-instance_destroy(other);
+if (object_get_name(other.object_index) != "obj_projectile_rose")
+{
+	instance_destroy(other);
+}
 
 if (hp <= 0)
 {

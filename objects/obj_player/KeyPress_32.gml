@@ -5,11 +5,13 @@ if (reload == 0)
 		case 0:
 		case 2:
 		case 3:
+		case 4:
 			instance_create_layer(x, y, "Instances", global.weapons[global.current_weapon].object);
-		break;
+			break;
 		case 1:
 			projectiles_left = 3;
 			alarm[0] = 1;
+			break;
 	}
 	reload = global.weapons[global.current_weapon].cooldown;
 }
