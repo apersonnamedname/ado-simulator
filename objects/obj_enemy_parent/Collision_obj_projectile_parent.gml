@@ -1,3 +1,5 @@
+audio_play_sound(sound_hit, 1, false);
+
 if (other != obj_projectile_beam)
 {
 	hp = hp - global.weapons[global.current_weapon].damage;
@@ -14,6 +16,7 @@ if (object_get_name(other.object_index) != "obj_projectile_rose")
 
 if (hp <= 0)
 {
+	instance_create_layer(x, y, "Instances", obj_explode);
 	global.player_kills += (1 * global.onion_multi);
 	global.onion_remain = global.onion_remain - 1;
 	

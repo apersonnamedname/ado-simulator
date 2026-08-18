@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sound_gyaru",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":1,
+  "compressionQuality":0,
+  "conversionMode":0,
+  "duration":1.0050799,
+  "exportDir":"",
+  "name":"sound_gyaru",
+  "parent":{
+    "name":"Sound",
+    "path":"folders/Sound.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":5512,
+  "soundFile":"sound_gyaru.mp3",
+  "volume":1.0,
+}

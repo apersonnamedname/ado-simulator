@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sound_low_usseewa",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":1,
+  "compressionQuality":0,
+  "conversionMode":1,
+  "duration":25.261974,
+  "exportDir":"",
+  "name":"sound_low_usseewa",
+  "parent":{
+    "name":"Sound",
+    "path":"folders/Sound.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":5512,
+  "soundFile":"sound_low_usseewa.ogg",
+  "volume":1.0,
+}

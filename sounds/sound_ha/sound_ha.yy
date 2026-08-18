@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sound_ha",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":1,
+  "compressionQuality":0,
+  "conversionMode":0,
+  "duration":0.7681422,
+  "exportDir":"",
+  "name":"sound_ha",
+  "parent":{
+    "name":"Sound",
+    "path":"folders/Sound.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":5512,
+  "soundFile":"sound_ha.mp3",
+  "volume":1.0,
+}

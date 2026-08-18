@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sound_coin",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.08936508,
+  "exportDir":"",
+  "name":"sound_coin",
+  "parent":{
+    "name":"Sound",
+    "path":"folders/Sound.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sound_coin.wav",
+  "volume":1.0,
+}
