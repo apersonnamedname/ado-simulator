@@ -1,6 +1,5 @@
 {
   "FolderOrderSettings":[
-    {"name":"Sound","order":4,"path":"folders/Sound.yy",},
     {"name":"Objects","order":1,"path":"folders/Objects.yy",},
     {"name":"buttons","order":8,"path":"folders/Objects/buttons.yy",},
     {"name":"importants","order":7,"path":"folders/Objects/importants.yy",},
@@ -10,6 +9,7 @@
     {"name":"Unused","order":10,"path":"folders/Objects/Unused.yy",},
     {"name":"Rooms","order":3,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":2,"path":"folders/Scripts.yy",},
+    {"name":"Sound","order":4,"path":"folders/Sound.yy",},
     {"name":"buttons","order":5,"path":"folders/Sprites/buttons.yy",},
     {"name":"Onions","order":6,"path":"folders/Sprites/Onions.yy",},
     {"name":"Projectiles","order":3,"path":"folders/Sprites/Projectiles.yy",},
@@ -22,6 +22,7 @@
     {"name":"obj_explode","order":4,"path":"objects/obj_explode/obj_explode.yy",},
     {"name":"obj_funni_button","order":9,"path":"objects/obj_funni_button/obj_funni_button.yy",},
     {"name":"obj_fx_controller","order":4,"path":"objects/obj_fx_controller/obj_fx_controller.yy",},
+    {"name":"obj_joystick","order":5,"path":"objects/obj_joystick/obj_joystick.yy",},
     {"name":"obj_level_manager","order":2,"path":"objects/obj_level_manager/obj_level_manager.yy",},
     {"name":"obj_onion_spawner","order":1,"path":"objects/obj_onion_spawner/obj_onion_spawner.yy",},
     {"name":"obj_projectile_avocado","order":1,"path":"objects/obj_projectile_avocado/obj_projectile_avocado.yy",},
@@ -44,6 +45,7 @@
     {"name":"obj_yellow_boss","order":2,"path":"objects/obj_yellow_boss/obj_yellow_boss.yy",},
     {"name":"obj_yellow_onion","order":1,"path":"objects/obj_yellow_onion/obj_yellow_onion.yy",},
     {"name":"room_shop","order":1,"path":"rooms/room_shop/room_shop.yy",},
+    {"name":"RoomUI","order":6,"path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"Global_Variables","order":1,"path":"scripts/Global_Variables/Global_Variables.yy",},
     {"name":"sound_gyaru","order":3,"path":"sounds/sound_gyaru/sound_gyaru.yy",},
     {"name":"sound_ha","order":5,"path":"sounds/sound_ha/sound_ha.yy",},

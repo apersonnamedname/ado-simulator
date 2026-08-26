@@ -4,6 +4,8 @@ switch (room)
 		draw_text_transformed(0, 0, "Onions skins: " + string(global.player_kills), SCALER.text_size, SCALER.text_size, 0);
 		draw_text_transformed(0, SCALER.spacing, "Level: " + string(global.level), SCALER.text_size, SCALER.text_size, 0);
 		draw_text_transformed(0, SCALER.spacing * 2, "Gyaru coins: " + string(global.money), SCALER.text_size, SCALER.text_size, 0);
+draw_text_transformed(0, SCALER.spacing * 3, string(fps), SCALER.text_size, SCALER.text_size, 0);
+draw_text_transformed(0, SCALER.spacing * 4, string(fps_real), SCALER.text_size, SCALER.text_size, 0);
 		break;
 	case room_shop:
 		draw_text_transformed(0, 0, "Onions skins: " + string(global.player_kills), SCALER.text_size, SCALER.text_size, 0);

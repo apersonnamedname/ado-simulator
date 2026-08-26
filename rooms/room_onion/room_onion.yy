@@ -13,6 +13,7 @@
     {"name":"inst_6DA7B5F5","path":"rooms/room_onion/room_onion.yy",},
     {"name":"inst_35CDD0AD","path":"rooms/room_onion/room_onion.yy",},
     {"name":"inst_CB4265A","path":"rooms/room_onion/room_onion.yy",},
+    {"name":"inst_76BEF19E","path":"roomui/RoomUI/RoomUI.yy",},
   ],
   "isDnd":false,
   "layers":[
