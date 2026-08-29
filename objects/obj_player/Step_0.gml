@@ -10,6 +10,27 @@ if (instance_exists(obj_joystick) && obj_joystick.using)
 
 move_and_collide(_hor * move_speed, _ver * move_speed, tilemap);
 
+if (x < 200)
+{
+	x = 250;
+}
+
+if (y < 200)
+{
+	y = 250;
+}
+
+if (x > 1800)
+{
+	x = 1750;
+}
+
+if (y > 1800)
+{
+	y = 1750;
+}
+
+
 image_angle = point_direction(x, y, mouse_x, mouse_y);
 
 if (reload > 0)

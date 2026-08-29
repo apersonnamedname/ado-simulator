@@ -15,7 +15,7 @@ else
 	}
 	
 	scale =  browser_height / room_height;
-	global.is_html = true;
+	global.need_scale = true;
 	text_size = 5 * scale;
 	spacing = 100 * scale;
 }

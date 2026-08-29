@@ -7,9 +7,7 @@ move_y = 0;
 using = false;
 max_radius = 300;
 
-info = os_get_info();
-
-if (!(os_type == os_gxgames && info[? "mobile"] == 1.0))
+if (!global.mobile)
 {
 	instance_destroy(self);
 }
