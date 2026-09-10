@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_control_changer",
+  "%Name":"obj_pc_control",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_control_changer",
+  "name":"obj_pc_control",
   "overriddenProperties":[],
   "parent":{
     "name":"buttons",
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_control_changer",
-    "path":"sprites/spr_control_changer/spr_control_changer.yy",
+    "name":"spr_pc_control",
+    "path":"sprites/spr_pc_control/spr_pc_control.yy",
   },
   "spriteMaskId":null,
   "visible":true,

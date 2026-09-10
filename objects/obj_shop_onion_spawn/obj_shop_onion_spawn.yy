@@ -8,8 +8,8 @@
   "name":"obj_shop_onion_spawn",
   "overriddenProperties":[],
   "parent":{
-    "name":"buttons",
-    "path":"folders/Objects/buttons.yy",
+    "name":"Shop Upgrades",
+    "path":"folders/Objects/buttons/Shop Upgrades.yy",
   },
   "parentObjectId":{
     "name":"obj_coin_upgrade_parent",

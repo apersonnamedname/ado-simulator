@@ -8,8 +8,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_wp_upgrade_parent","path":"objects/obj_wp_upgrade_parent/obj_wp_upgrade_parent.yy",},"propertyId":{"name":"weapon_index","path":"objects/obj_wp_upgrade_parent/obj_wp_upgrade_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
   ],
   "parent":{
-    "name":"buttons",
-    "path":"folders/Objects/buttons.yy",
+    "name":"Shop Upgrades",
+    "path":"folders/Objects/buttons/Shop Upgrades.yy",
   },
   "parentObjectId":{
     "name":"obj_wp_upgrade_parent",

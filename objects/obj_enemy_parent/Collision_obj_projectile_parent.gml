@@ -9,9 +9,13 @@ else
 	hp = hp - 3;
 }
 
-if (object_get_name(other.object_index) != "obj_projectile_rose")
+switch(object_get_name(other.object_index))
 {
-	instance_destroy(other);
+    case "obj_projectile_rose":
+    case "obj_projectile_miku":
+        return;
+    default:
+        instance_destroy(other);
 }
 
 if (hp <= 0)

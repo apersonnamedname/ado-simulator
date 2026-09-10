@@ -6,8 +6,8 @@
   "name":"obj_shop_avocado",
   "overriddenProperties":[],
   "parent":{
-    "name":"buttons",
-    "path":"folders/Objects/buttons.yy",
+    "name":"Shop Upgrades",
+    "path":"folders/Objects/buttons/Shop Upgrades.yy",
   },
   "parentObjectId":{
     "name":"obj_wp_upgrade_parent",
