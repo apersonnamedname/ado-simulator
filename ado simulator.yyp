@@ -39,6 +39,7 @@
   },
   "name":"ado simulator",
   "resources":[
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_coin_spawner","path":"objects/obj_coin_spawner/obj_coin_spawner.yy",},},
     {"id":{"name":"obj_coin_upgrade_parent","path":"objects/obj_coin_upgrade_parent/obj_coin_upgrade_parent.yy",},},
     {"id":{"name":"obj_coin","path":"objects/obj_coin/obj_coin.yy",},},

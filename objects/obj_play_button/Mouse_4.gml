@@ -1,1 +1,1 @@
-room_goto(room_onion);
+alarm[0] = 1;
